@@ -3,6 +3,7 @@
 </script>
 <div>
     {#each tracks as track}
-         <TarjetaDeCancion info={track}/>
+         <playlist info = {track}/>
     {/each}
+
 </div>
