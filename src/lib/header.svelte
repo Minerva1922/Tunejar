@@ -5,9 +5,15 @@
 <header>
    
    <img src= {logo} alt="logo de tunejar"> 
-   <div>login</div>
+   <div>
+    <button>LOGIN</button>
+   </div>
 
 </header>
+<main>
+    
+</main>
+
 
 <style>
     
@@ -16,7 +22,8 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
-        background-color: aqua;
+       
+       
     }
     img {
         height: 100%;
