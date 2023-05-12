@@ -7,9 +7,12 @@ background-size: cover;
  }
 
  button{
-  width: 150px;
-  height: 150px;
-  color:black;
-  background-color: pink;
-  border-radius: 80px;
- }
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: pink;
+    border-radius: 80px;
+    margin-top: -5px;
+    margin-right: -7px;
+}
+ 
