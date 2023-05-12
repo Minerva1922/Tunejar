@@ -15,7 +15,7 @@
   var tracks =[{
    Disco:  "ASTRA",
    Author:  "ASIA",
-   Title: "",
+   Title: "Voice of America",
    ReleaseYear: 1985,
    Genre: "Rock progresivo", 
    Link:"https://open.spotify.com/track/1UMPYOmC7xbK24F1KwM5oT",

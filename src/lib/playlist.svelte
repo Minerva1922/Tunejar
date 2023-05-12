@@ -3,8 +3,20 @@
 
     export let tracks;
 </script>
-<div>
+
+<div class="contenedor">
     {#each tracks as cancion}
-         <TarjetaDeCancion info={cancion}/>
+        <TarjetaDeCancion info={cancion} />
     {/each}
 </div>
+
+<style>
+    div {
+        border: 1px solid red;
+    }
+
+    .contenedor {
+        padding: 3%;
+        display: flex;
+    }
+</style>

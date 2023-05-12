@@ -1,22 +1,34 @@
 <script>
     export let info;
+    let hover = false;
 </script>
 
-<img src={info.Cover} alt="cover" />
-<p>{info.Title} by {info.Author} ({info.ReleaseYear})</p>
-
+<div class="card">
+    <img src={info.Cover} alt="cover" />`
+    <div class="info">
+        <p>{info.Title}</p>
+        <p>{info.Author} ({info.ReleaseYear})</p>
+    </div>
+</div>
 
 <style>
-    img{
-        width: 300px;
-        display: flex;
-        justify-content: center;
-        margin-left: 600px;
-        border-radius: 20%;
-        margin-top: 60px;
+    .card {
+        border: 1px solid blue;
+        display: grid; /*ni idea de por que**/
+        position: inline;
     }
-
-    p{
-        color:white;
+    img {
+        width: 200px;
+        border-radius: 20%;
+        
+    }
+    .info {
+        color: white;
+        position: absolute;
+        text-align: center;
+        display: none;
+    }
+    .card:hover .info {
+        display: inline;
     }
 </style>

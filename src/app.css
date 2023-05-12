@@ -1,12 +1,10 @@
-
-
 body {
-background-image: url('../public/img/fondoweb.png');
-background-repeat: no-repeat;
-background-size: cover;
- }
+    background-image: url('../public/img/fondoweb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
- button{
+button {
     width: 80px;
     height: 80px;
     color: black;
@@ -15,4 +13,3 @@ background-size: cover;
     margin-top: -5px;
     margin-right: -7px;
 }
- 
