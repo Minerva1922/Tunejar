@@ -11,12 +11,14 @@
 </div>
 
 <style>
-    div {
-        border: 1px solid red;
-    }
-
+    
     .contenedor {
-        padding: 3%;
+        border: 1px solid red;
         display: flex;
-    }
+        justify-content: space-between;
+        margin-top: 120px;
+        column-gap: 10px;
+         }
+
+    
 </style>

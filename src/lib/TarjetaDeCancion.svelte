@@ -3,8 +3,9 @@
     let hover = false;
 </script>
 
+
 <div class="card">
-    <img src={info.Cover} alt="cover" />`
+    <img src={info.Cover} alt="cover" />
     <div class="info">
         <p>{info.Title}</p>
         <p>{info.Author} ({info.ReleaseYear})</p>
@@ -13,12 +14,17 @@
 
 <style>
     .card {
-        border: 1px solid blue;
-        display: grid; /*ni idea de por que**/
-        position: inline;
+        
+        border-width: 10px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #00ff00, #ff00ff) 1;
+  padding: px; 
+        display: flex;
+        position:top;
+        
     }
     img {
-        width: 200px;
+        width: 140px;
         border-radius: 20%;
         
     }

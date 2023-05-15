@@ -4,12 +4,3 @@ body {
     background-size: cover;
 }
 
-button {
-    width: 80px;
-    height: 80px;
-    color: black;
-    background-color: pink;
-    border-radius: 80px;
-    margin-top: -5px;
-    margin-right: -7px;
-}
