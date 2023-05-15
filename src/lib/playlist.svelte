@@ -12,13 +12,12 @@
 
 <style>
     
-    .contenedor {
-        border: 1px solid red;
+   /* .contenedor {
         display: flex;
         justify-content: space-between;
         margin-top: 120px;
         column-gap: 10px;
-         }
+         }*/
 
     
 </style>
