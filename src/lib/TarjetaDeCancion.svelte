@@ -12,4 +12,19 @@
     </div>
 </div>
 
+<style>
+    img {
+        background-color: red;
+        display: flex;
+        margin-top: 100px;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 5px;
+        border: 1px solid #ff1493;
+        box-shadow: 0 0 10px #ff1493;
+    }
 
+    img:hover {
+        transform: translate(1px, 1px);
+    }
+</style>
