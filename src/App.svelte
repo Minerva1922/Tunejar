@@ -1,15 +1,15 @@
 <script>
-    import { onMount } from "svelte";
+  import { onMount } from "svelte";
   import Header from "./lib/header.svelte";
   import Playlist from "./lib/playlist.svelte";
 
-  let tracks = [ ];
+  let tracks = [];
 
   onMount(() => {
     fetch("http://localhost:9000/api/songs")
-      .then( respuesta => respuesta.json())
-      .then( datos => tracks = datos)
-  })
+      .then((respuesta) => respuesta.json())
+      .then((datos) => (tracks = datos));
+  });
 </script>
 
 <main>
@@ -18,10 +18,11 @@
 </main>
 
 <style>
-  /*main {
+  /* main {
+   
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     height: 100%;
   }*/

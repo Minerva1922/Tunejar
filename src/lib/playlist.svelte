@@ -5,19 +5,13 @@
 </script>
 
 <div class="contenedor">
+    
     {#each tracks as cancion}
         <TarjetaDeCancion info={cancion} />
     {/each}
-</div>
+   </div>
+
 
 <style>
-    
-   /* .contenedor {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 120px;
-        column-gap: 10px;
-         }*/
-
     
 </style>
