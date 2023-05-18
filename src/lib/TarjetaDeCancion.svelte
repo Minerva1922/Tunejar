@@ -1,5 +1,4 @@
 <script>
-    import { each } from "svelte/internal";
     import Corazon from "./corazon.svelte";
     export let info;
 </script>
@@ -9,7 +8,7 @@
         <h3>{info.title}</h3>
         <p>{info.author} ({info.releaseYear})</p>
     </div>
-    <Corazon/>
+    <Corazon id = {info.id}/>
 </div>
 
 <style>
@@ -21,17 +20,21 @@
         height: 200px;
         margin: 10%;
         border-radius: 5px;
+        box-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493;
+        
     }
 
     .info {
-        margin: 5%;
+        margin: 20%;
         display: flex;
-
+        color: #ff1493;
+        -webkit-text-stroke: 1px black;
         text-align: center;
         flex-direction: column;
-        color: black;
-        background-color: rgba(255, 255, 255, 0.669);
+        box-shadow: 0 0 10px #14efff, 0 0 20px #14efff, 0 0 30px #14efff, 0 0 40px #14efff;
+        background-color: rgba(255, 255, 255, 0.672);
         visibility: hidden;
+        
     }
 
     .card:hover .info{

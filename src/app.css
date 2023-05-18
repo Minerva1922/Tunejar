@@ -21,7 +21,11 @@ body {
     color: black;
     border-radius: 80px;
     margin-top: 1px;
-    margin-left: 400px;
+    margin-left: 830px;
     box-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493, 0 0 30px #ff1493, 0 0 40px #ff1493;
 }
+.corazon {
+    fill: url(#degradado);
+  }
+  
 
