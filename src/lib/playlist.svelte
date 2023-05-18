@@ -5,13 +5,15 @@
 </script>
 
 <div class="contenedor">
-    
     {#each tracks as cancion}
-        <TarjetaDeCancion info={cancion} />
+        <TarjetaDeCancion info={cancion}/>
     {/each}
-   </div>
-
+</div>
 
 <style>
-    
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 3%;
+    }
 </style>
