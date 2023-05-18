@@ -4,8 +4,7 @@
     export let info;
 </script>
 
-<div class="card">
-    <img src={info.cover} alt="cover"/>
+<div class="card" style="background-image: url({info.cover})">
     <div class="info">
         <h3>{info.title}</h3>
         <p>{info.author} ({info.releaseYear})</p>
@@ -14,21 +13,13 @@
 
 <style>
     .card {
+        background-size: cover;
+        background-repeat: no-repeat;
         position: relative;
+        width: 200px;
+        height: 200px;
     }
-    img {
-        position: relative;
-        display: flex;
-        width: 250px;
-        height: 250px;
-        margin: 2%;
-        object-fit: contain;
-        box-shadow: 0 0 10px #ff1493;
-    }
-
-    img:hover {
-        transform: translate(1px, 1px);
-    }
+    
 
     .info {
         bottom: 0;
