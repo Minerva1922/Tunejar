@@ -1,12 +1,14 @@
 <script>
     export let id;
-    let like = false;
+    export let like = false;
     function click() {
         like = !like;
+        console.log(`hemos hecho click en la cancion ${id} y ahora like es ${like}`)    
+
+        // llamar a like o dislike dependiendo de lo que queremos hacer
         fetch(`http://localhost:9000/api/songs/${id}/like`, {method: "PUT"})
             .then(respuestaHttp => console.log("El servidor responde " + respuestaHttp.status))
             .catch(() => console.log("Ha petao"));
-            console.log(`hemos hecho click en la cancion ${id} y ahora like es ${like}`)    
     }
 </script>
 
@@ -14,7 +16,7 @@
     {#if like}
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="#FFFF00"
+            fill="red"
             class="bi bi-heart-fill"
             viewBox="0 0 16 16"
         >
@@ -26,7 +28,7 @@
     {:else}
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="#FFFF00"
+            fill="red"
             class="bi bi-heart"
             viewBox="0 0 16 16"
             
