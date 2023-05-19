@@ -8,7 +8,7 @@ TUNEJAR
 * Silvana Cinthia
 * Ikram
 * Nelly
-* Manuel e
+* Manuel 
 * Irina
 
 
@@ -27,7 +27,7 @@ TuneJar es una pequeña Startup que ha conseguido 20 millones de € de financia
 * CSS3,
 * Javascript,
 * Svelte + vite,
-* postman,
+* Postman,
 * Figma.
 
 ## Funcionalidades del proyecto
