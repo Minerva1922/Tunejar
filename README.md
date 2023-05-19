@@ -1,5 +1,8 @@
 TUNEJAR
-image.png
+<h1 aling="center">
+Tujerar
+<img src="C:\Users\fundacion\Pictures\Saved Pictures\TuneJar figma.png" alt="Night Club">
+</h1>
 
 # Desarollado por:
 * Minerva.
@@ -29,9 +32,9 @@ Figma.
 
 ## Funcionalidades del proyecto
 
-  Funcionalidad 1 : crear **playlists** personalizadas para que los usuarios puedan compartir sus gustos musicales escogiendo de un **catálogo** .
-  Funcionalidad 2 : visualizar una **playlist** de canciones.
-  Funcionalidad 3 : seleccionar nuevas canciones del catálogo y añadirlas a la playlist. 
-  Funcionalidad 4 : Cada canción debe mostrar la siguiente información: nombre, nombre del artista, el género, el enlace a Spotify, el disco, el año, la portada del disco.
+  * Funcionalidad 1 : crear **playlists** personalizadas para que los usuarios puedan compartir sus gustos musicales escogiendo de un **catálogo** .
+  * Funcionalidad 2 : visualizar una **playlist** de canciones.
+  * Funcionalidad 3 : seleccionar nuevas canciones del catálogo y añadirlas a la playlist. 
+  * Funcionalidad 4 : Cada canción debe mostrar la siguiente información: nombre, nombre del artista, el género, el enlace a Spotify, el disco, el año, la portada del disco.
 
 
