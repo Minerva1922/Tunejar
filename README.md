@@ -17,15 +17,15 @@ TuneJar es una pequeña Startup que ha conseguido 20 millones de € de financia
 
 ## Tecnologías aplicadas
 
-Github
-Trello
-Visual Studio Code
-IntelliJ
-HTML5
-CSS3
-Javascript
-Svelte + vite
-Figma
+Github,
+Trello,
+Visual Studio Code,
+IntelliJ,
+HTML5,
+CSS3,
+Javascript,
+Svelte + vite,
+Figma.
 
 ## Funcionalidades del proyecto
 
