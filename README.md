@@ -2,12 +2,12 @@ TUNEJAR
 image.png
 
 # Desarollado por:
-Minerva
-Silvana Cinthia
-Ikram
-Nelly
-Manuel
-Irina
+* Minerva.
+* Silvana Cinthia
+* Ikram
+* Nelly
+* Manuel
+* Irina
 
 
 
