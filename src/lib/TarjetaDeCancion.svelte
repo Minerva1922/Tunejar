@@ -8,7 +8,7 @@
         <h3>{info.title}</h3>
         <p>{info.author} ({info.releaseYear})</p>
     </div>
-    <Corazon id = {info.id}/>
+    <Corazon id={info.id} like={info.favorite}/>
 </div>
 
 <style>
